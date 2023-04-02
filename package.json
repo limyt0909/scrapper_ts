@@ -1,0 +1,22 @@
+{
+  "name": "pracetice_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limyt0909/pracetice_ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limyt0909/pracetice_ts/issues"
+  },
+  "homepage": "https://github.com/limyt0909/pracetice_ts#readme",
+  "dependencies": {
+    "typescript": "^5.0.3"
+  }
+}
