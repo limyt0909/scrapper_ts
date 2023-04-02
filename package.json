@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "test": "echo \"Error: no test specified\" && exi, 1"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,10 @@
   },
   "homepage": "https://github.com/limyt0909/pracetice_ts#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "typescript": "^5.0.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
   }
 }
