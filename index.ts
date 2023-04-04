@@ -1,14 +1,16 @@
-import express, { Request, Response } from 'express';
-const app = express()
+import express from 'express';
 import { requestlog } from './middleware/log'
 import scrapingRouter from './routes/scraping';
 const port = 8080 || process.env.PORT
 require("dotenv").config();
 
 
+
+const app = express()
 app.use(requestlog)
 
 app.get("/", async (req, res) => {
+
     console.log("TS API console")
     return res.send("API Type script");
 })
