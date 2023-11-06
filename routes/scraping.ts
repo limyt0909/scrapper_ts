@@ -12,6 +12,7 @@ router.get("/", async (req, res) => {
     http.get(url, (res) => {
         res.pipe(outfile);
         res.on('end', function () {
+            
             outfile.close();
             console.log("file down end.");
         });
